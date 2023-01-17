@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PurpleTechnology.Watchdog.Service", "PurpleTechnology.Watchdog.Service\PurpleTechnology.Watchdog.Service.csproj", "{B730D7E0-1864-46CC-947E-4E241242A020}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ABEEB826-026C-4A8F-9666-6D349C2BED14} = {ABEEB826-026C-4A8F-9666-6D349C2BED14}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PurpleTechnology.MT5Wrapper", "PurpleTechnology.MT5Wrapper\PurpleTechnology.MT5Wrapper.csproj", "{ABEEB826-026C-4A8F-9666-6D349C2BED14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PurpleTechnology.Watchdog.Config", "PurpleTechnology.Watchdog.Config\PurpleTechnology.Watchdog.Config.csproj", "{3C08E64A-99A2-4DDB-985F-33693F0BA2C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PurpleTechnology.Watchdog.DealsMonitor", "PurpleTechnology.Watchdog.DealsMonitor\PurpleTechnology.Watchdog.DealsMonitor.csproj", "{B78526F4-18BF-4D65-AA0D-575747CA20EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30A24E62-8CE6-454B-8A86-7296B9AB4841}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3984BD29-3BA1-4E8D-8D23-F0F1663271C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PurpleTechnology.Watchdog.DealsMonitor.Tests", "PurpleTechnology.Watchdog.DealsMonitor.Tests\PurpleTechnology.Watchdog.DealsMonitor.Tests.csproj", "{7A13A890-60FE-4A47-BD82-4EC2136296D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PurpleTechnology.Watchdog.Abstractions", "PurpleTechnology.Watchdog.Abstractions\PurpleTechnology.Watchdog.Abstractions.csproj", "{2DE53EA8-75E1-40AD-BCC7-82C85058F705}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B730D7E0-1864-46CC-947E-4E241242A020}.Debug|x64.ActiveCfg = Debug|x64
+		{B730D7E0-1864-46CC-947E-4E241242A020}.Debug|x64.Build.0 = Debug|x64
+		{B730D7E0-1864-46CC-947E-4E241242A020}.Release|x64.ActiveCfg = Release|x64
+		{B730D7E0-1864-46CC-947E-4E241242A020}.Release|x64.Build.0 = Release|x64
+		{ABEEB826-026C-4A8F-9666-6D349C2BED14}.Debug|x64.ActiveCfg = Debug|x64
+		{ABEEB826-026C-4A8F-9666-6D349C2BED14}.Debug|x64.Build.0 = Debug|x64
+		{ABEEB826-026C-4A8F-9666-6D349C2BED14}.Release|x64.ActiveCfg = Release|x64
+		{ABEEB826-026C-4A8F-9666-6D349C2BED14}.Release|x64.Build.0 = Release|x64
+		{3C08E64A-99A2-4DDB-985F-33693F0BA2C5}.Debug|x64.ActiveCfg = Debug|x64
+		{3C08E64A-99A2-4DDB-985F-33693F0BA2C5}.Debug|x64.Build.0 = Debug|x64
+		{3C08E64A-99A2-4DDB-985F-33693F0BA2C5}.Release|x64.ActiveCfg = Release|x64
+		{3C08E64A-99A2-4DDB-985F-33693F0BA2C5}.Release|x64.Build.0 = Release|x64
+		{B78526F4-18BF-4D65-AA0D-575747CA20EA}.Debug|x64.ActiveCfg = Debug|x64
+		{B78526F4-18BF-4D65-AA0D-575747CA20EA}.Debug|x64.Build.0 = Debug|x64
+		{B78526F4-18BF-4D65-AA0D-575747CA20EA}.Release|x64.ActiveCfg = Release|x64
+		{B78526F4-18BF-4D65-AA0D-575747CA20EA}.Release|x64.Build.0 = Release|x64
+		{7A13A890-60FE-4A47-BD82-4EC2136296D1}.Debug|x64.ActiveCfg = Debug|x64
+		{7A13A890-60FE-4A47-BD82-4EC2136296D1}.Debug|x64.Build.0 = Debug|x64
+		{7A13A890-60FE-4A47-BD82-4EC2136296D1}.Release|x64.ActiveCfg = Release|x64
+		{7A13A890-60FE-4A47-BD82-4EC2136296D1}.Release|x64.Build.0 = Release|x64
+		{2DE53EA8-75E1-40AD-BCC7-82C85058F705}.Debug|x64.ActiveCfg = Debug|x64
+		{2DE53EA8-75E1-40AD-BCC7-82C85058F705}.Debug|x64.Build.0 = Debug|x64
+		{2DE53EA8-75E1-40AD-BCC7-82C85058F705}.Release|x64.ActiveCfg = Release|x64
+		{2DE53EA8-75E1-40AD-BCC7-82C85058F705}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A13A890-60FE-4A47-BD82-4EC2136296D1} = {3984BD29-3BA1-4E8D-8D23-F0F1663271C3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0060C711-A38E-4811-B199-C8D7649EB1C6}
+	EndGlobalSection
+EndGlobal

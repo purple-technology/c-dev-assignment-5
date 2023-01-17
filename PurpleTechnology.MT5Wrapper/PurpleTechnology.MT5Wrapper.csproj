@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>PurpleTechnology.MT5Wrapper</AssemblyName>
+    <RootNamespace>PurpleTechnology.MT5Wrapper</RootNamespace>
+    <Platforms>x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="3rdParty\MetaQuotes\MT5APIManager64.dll" Link="MT5APIManager64.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MetaQuotes.MT5CommonAPI64">
+      <HintPath>3rdParty\MetaQuotes\MetaQuotes.MT5CommonAPI64.dll</HintPath>
+    </Reference>
+    <Reference Include="MetaQuotes.MT5ManagerAPI64">
+      <HintPath>3rdParty\MetaQuotes\MetaQuotes.MT5ManagerAPI64.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

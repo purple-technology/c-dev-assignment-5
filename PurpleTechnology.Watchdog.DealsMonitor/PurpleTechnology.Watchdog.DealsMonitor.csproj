@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Platforms>x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PurpleTechnology.Watchdog.Abstractions\PurpleTechnology.Watchdog.Abstractions.csproj" />
+    <ProjectReference Include="..\PurpleTechnology.Watchdog.Config\PurpleTechnology.Watchdog.Config.csproj" />
+  </ItemGroup>
+
+</Project>

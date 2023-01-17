@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Platforms>x64</Platforms>
+    <AssemblyName>PurpleTechnology.Watchdog.Config</AssemblyName>
+    <RootNamespace>PurpleTechnology.Watchdog.Config</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PurpleTechnology.MT5Wrapper\PurpleTechnology.MT5Wrapper.csproj" />
+  </ItemGroup>
+
+</Project>
