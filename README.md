@@ -1,4 +1,4 @@
-This is an assignment for [C# developer job](https://www.purple-technology.com/positions/c-developer/) applicants.  
+This is an assignment for [C# developer job](https://www.purple-technology.com/positions/c-developer-2/) applicants.  
 # C# programmer assignment
 Implement similar deals monitoring module to the provided project. The module will monitor trading activity in real-time and will log any suspicous behavior.
 ## Watchdog project
